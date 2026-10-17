@@ -1,3 +1,13 @@
+## About this fork
+
+This is a development fork of [pydicom/pydicom](https://github.com/pydicom/pydicom), the Python package for reading, modifying, and writing DICOM datasets. It provides access to metadata and pixel data, making it useful for image-data inspection, format conversion, and research tooling that needs to work directly with DICOM objects.
+
+The fork's [upstream PR #2390](https://github.com/pydicom/pydicom/pull/2390) proposes checking HTTP response status before saving downloaded data. It was open on 17 October 2026 and is tracked on the linked feature branch.
+
+Use the [official installation guide](https://pydicom.github.io/pydicom/stable/tutorials/installation.html) and [documentation](https://pydicom.github.io/pydicom/stable) for supported APIs and pixel-data dependencies. [Compare the default branch with upstream](https://github.com/jdotc1/pydicom/compare/pydicom:main...jdotc1:main). The original README below preserves the package scope, examples, and links to related DICOM projects.
+
+---
+
 [![unit-tests](https://github.com/pydicom/pydicom/workflows/unit-tests/badge.svg)](https://github.com/pydicom/pydicom/actions?query=workflow%3Aunit-tests)
 [![type-hints](https://github.com/pydicom/pydicom/workflows/type-hints/badge.svg)](https://github.com/pydicom/pydicom/actions?query=workflow%3Atype-hints)
 [![doc-build](https://circleci.com/gh/pydicom/pydicom/tree/main.svg?style=shield)](https://circleci.com/gh/pydicom/pydicom/tree/main)
